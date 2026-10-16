@@ -1,0 +1,80 @@
+{
+  "spamassassin": {
+    "baseline": {
+      "accuracy": 0.985,
+      "precision": 0.9866220735785953,
+      "recall": 0.9833333333333333,
+      "f1": 0.9849749582637729,
+      "false_positive_rate": 0.013333333333333334,
+      "auc": 0.9991777777777777,
+      "confusion_matrix": [
+        [
+          296,
+          4
+        ],
+        [
+          5,
+          295
+        ]
+      ],
+      "threshold": 0.5
+    },
+    "distilbert": {
+      "accuracy": 0.9483333333333334,
+      "precision": 0.9381107491856677,
+      "recall": 0.96,
+      "f1": 0.9489291598023064,
+      "false_positive_rate": 0.06333333333333334,
+      "auc": 0.9889333333333333,
+      "confusion_matrix": [
+        [
+          281,
+          19
+        ],
+        [
+          12,
+          288
+        ]
+      ],
+      "threshold": 0.5
+    },
+    "hybrid": {
+      "accuracy": 0.9583333333333334,
+      "precision": 0.939297124600639,
+      "recall": 0.98,
+      "f1": 0.9592169657422512,
+      "false_positive_rate": 0.06333333333333334,
+      "auc": 0.9926666666666666,
+      "confusion_matrix": [
+        [
+          281,
+          19
+        ],
+        [
+          6,
+          294
+        ]
+      ],
+      "threshold": 0.5
+    },
+    "personalized": {
+      "accuracy": 0.9616666666666667,
+      "precision": 0.9453376205787781,
+      "recall": 0.98,
+      "f1": 0.9623567921440261,
+      "false_positive_rate": 0.056666666666666664,
+      "auc": 0.994588888888889,
+      "confusion_matrix": [
+        [
+          283,
+          17
+        ],
+        [
+          6,
+          294
+        ]
+      ],
+      "threshold": 0.5
+    }
+  }
+}

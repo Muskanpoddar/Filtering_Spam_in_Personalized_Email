@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyTorch / HuggingFace
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+
+# Trained model artifacts (large, regenerable)
+models/baseline_nb/*.joblib
+models/baseline_nb/*.npy
+models/baseline_nb/*.npz
+models/baseline_nb/*.json
+models/distilbert/
+models/hybrid/
+models/personalized/
+models/*/config.json
+models/*/tokenizer.json
+models/*/vocab.txt
+models/*/merges.txt
+models/*/special_tokens_map.json
+
+# Raw and processed data (large, regenerable via scripts/build_datasets.py)
+data/raw/
+data/processed/
+
+# Trained-model results (regenerable)
+results/*.png
+results/*.jpg
+results/*.jpeg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+
+# Cloudflare tunnel binary (downloaded separately)
+cloudflared.exe
+cloudflared
+
+# Logs
+*.log
+logs/
+
+# Local paper / scratch figures used during humanization
+_paper_build/

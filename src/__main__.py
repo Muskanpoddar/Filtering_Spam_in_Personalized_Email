@@ -1,0 +1,1 @@
+"""Allow `python -m src.train` etc."""
